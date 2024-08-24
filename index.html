@@ -24,7 +24,7 @@
     <div class="container">
         <div></div>
       <h1>Welcome To the Home Of Luxury</h1>
-      <h3>Fields that has * are required</h3>
+      <h3>Fields that has "*" are required</h3>
       <div class="form">
         <div class="dataContainer">
           <label for="fname">First Name *</label>
@@ -39,8 +39,8 @@
           <input type="email" name="mail" id="mail" placeholder="you@gmail.com" required/>
         </div>
         <div class="dataContainer">
-          <label for="pnumber">Phone Number</label>
-          <input type="text" name="pnumber" id="pnumber" placeholder="01012345678" />
+          <label for="pnumber">Phone Number *</label>
+          <input type="text" name="pnumber" id="pnumber" placeholder="01012345678" required/>
         </div>
         <div class="dataContainer">
           <label for="pass">Password *</label>
@@ -49,6 +49,7 @@
         <div class="dataContainer">
           <label for="cpass">Confirm Password *</label>
           <input type="password" name="cpass" id="cpass" required/>
+          <label class="hidden" id="match">Passwords do not match</label>
         </div>
       </div>
       <div class="footer">
