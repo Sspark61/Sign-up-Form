@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sspark</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
+  <head>
+    <style>
+      @font-face {
+        font-family: oswald;
+        src: url(oswald.regular.ttf);
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercedes Benz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="poster">
+      <div class="title">
+        <div>
+          <img id="logo" src="mercedes-benz-logo-8-s.png" alt="" />
+        </div>
+        <div class="name">Mercedes Benz</div>
+      </div>
+    </div>
+    <div class="container">
+        <div></div>
+      <h1>Welcome To the Home Of Luxury</h1>
+      <h3>Fields that has * are required</h3>
+      <div class="form">
+        <div class="dataContainer">
+          <label for="fname">First Name *</label>
+          <input type="text" name="fname" id="fname" placeholder="John" required/>
+        </div>
+        <div class="dataContainer">
+          <label for="Lname">Last Name *</label>
+          <input type="text" name="Lname" id="Lname" placeholder="Smith" required/>
+        </div>
+        <div class="dataContainer">
+          <label for="mail">EMAIL *</label>
+          <input type="email" name="mail" id="mail" placeholder="you@gmail.com" required/>
+        </div>
+        <div class="dataContainer">
+          <label for="pnumber">Phone Number</label>
+          <input type="text" name="pnumber" id="pnumber" placeholder="01012345678" />
+        </div>
+        <div class="dataContainer">
+          <label for="pass">Password *</label>
+          <input type="password" name="pass" id="pass" required/>
+        </div>
+        <div class="dataContainer">
+          <label for="cpass">Confirm Password *</label>
+          <input type="password" name="cpass" id="cpass" required/>
+        </div>
+      </div>
+      <div class="footer">
+        <button class="button type1">Create Account</button>
+        <a>Already have an account ? <span>Log In!</span> </a>
+      </div>
+    </div>
     <script src="back.js"></script>
-</body>
+  </body>
 </html>
